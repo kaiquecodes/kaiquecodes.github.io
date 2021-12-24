@@ -7,9 +7,9 @@ url: ''
 baseurl: 
 
 # Title of the Site
-title: What A Theme
+title: Kaíque Machado
 # Description of the Site
-description: A customizable Jekyll portfolio theme
+description: Estudante de Engenharia de Computação e Residente em T.I.
 # URL of Image of the Site
 site-image: /WhatATheme/assets/images/meta.jpg
 # Keywords of the Site
@@ -18,21 +18,21 @@ site-keywords: Site, Template, Theme
 favicon-url: 
 
 # URL of the Image of Custom Hero Image (i.e., the image in the background of the very first section of the Homepage)
-heroimage: https://images.pexels.com/photos/220444/pexels-photo-220444.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940
+heroimage: https://raw.githubusercontent.com/kaiquecodes/teste/main/meta.jpg
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
-email: thedevslot@gmail.com
-facebook_username: thedevslot
-twitter_username: thedevslot
-instagram_username: thedevslot
-linkedin_username: thedevslot
-github_username:  thedevslot
-youtube_channel_id: UCk_93NXYP-U_AOB5GfWlOow
-reddit_username: /
-behance_username: /
-dribbble_username: /
-spotify_username: /
+email: kaique.engcomp@gmail.com
+facebook_username: 
+twitter_username: 
+instagram_username: kaiquecodes
+linkedin_username: kaiquecodes
+github_username:  kaiquecodes
+youtube_channel_id: UC1831hqdPeCBrrp17zMf3Ag
+reddit_username: 
+behance_username: 
+dribbble_username: 
+spotify_username: 	z10zb1kcoakpz2lmdrb88rloq
 
 # Google Analytics
 google-analytics: UA-163806439-1
@@ -41,13 +41,14 @@ google-analytics: UA-163806439-1
 disqus-shortname: thedevslot
 
 # Name of the Author
-author-name: TheDevsLot
+author-name: Kaiquecodes
 # URL for the Image of the Author
-author-image: https://cdn.pixabay.com/photo/2015/10/05/22/37/blank-profile-picture-973460_960_720.png
+author-image: https://raw.githubusercontent.com/kaiquecodes/teste/main/profile.jpg
 # 60 Words About the Author
-author-about: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse eget pharetra velit, dapibus bibendum ex. Maecenas vitae laoreet mauris, ac luctus metus. Aliquam luctus velit vel ipsum feugiat, vel venenatis mauris hendrerit. Sed at vulputate sapien, eget vehicula dolor. Aliquam volutpat pulvinar neque sit amet sodales.
+author-about: Olá Mundo! Sou o Kaíque Machado, nasci em Recife, Pernambuco. Tenho graduação em Ciências e Tecnologia com ênfase em Computação pela Universidade Federal do Rio Grande do Norte (UFRN). Atualmente, sou estudante de Engenharia da Computação na UFRN e Residente em T.I no programa de Residência do Instituto Metropóle Digital (UFRN) junto com o Tribunal Regional Federal da 5º Região (TRF5).
+ 
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: https://github.com/thedevslot
+author-url: https://github.com/kaiquecodes
 
 # SASS
 sass:
