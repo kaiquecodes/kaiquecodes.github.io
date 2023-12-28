@@ -26,7 +26,7 @@
             </div>
 
             <!--Link Section-->
-            <div class="column has-text-white">
+             <!-- <div class="column has-text-white">
                 <h3>Mais Links</h3>
                 {% for sitepage in site.html_pages offset: 4 %}
                 {% unless sitepage.url == '/'  limit: 2 %}
@@ -38,11 +38,12 @@
                 <li>
                     <a target="_blank" href="{{site.url}}{{site.baseurl}}/feed.xml">Se inscrever via RSS</a>
                 </li>
-            </div>
+            </div>  -->
+         
 
             <!--Blog-post Section-->
             <div class="column has-text-white">
-                <h3>Posts recentes</h3>
+                <h3>Artigos recentes</h3>
                 {% for post in site.posts offset: 0 limit:3 %}
                 <li>
                     <a href="{{post.url | absolute_url}}">{{post.title}}</a>

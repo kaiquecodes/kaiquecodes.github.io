@@ -9,7 +9,7 @@ baseurl:
 # Title of the Site
 title: Kaique Machado
 # Description of the Site
-description: Engenheiro de Computação.
+description: Engenheiro de Computação
 # URL of Image of the Site
 site-image: /WhatATheme/assets/images/meta.jpg
 # Keywords of the Site
@@ -22,10 +22,10 @@ heroimage: https://raw.githubusercontent.com/kaiquecodes/kaiquecodes.github.io/m
 
 # Social Media and Contact
 # If you don't want to use any icon, you can leave them blank.
-email: kaique.engcomp@gmail.com
+email: kaique.eng.br@gmail.com
 facebook_username: 
 twitter_username: 
-instagram_username: kaiquecodes
+instagram_username: kaique.eng.br
 linkedin_username: kaiquecodes
 github_username:  kaiquecodes
 youtube_channel_id: UC1831hqdPeCBrrp17zMf3Ag
@@ -41,14 +41,14 @@ google-analytics: UA-163806439-1
 disqus-shortname: thedevslot
 
 # Name of the Author
-author-name: Kaiquecodes
+author-name: Kaique Machado
 # URL for the Image of the Author
 author-image: https://raw.githubusercontent.com/kaiquecodes/kaiquecodes.github.io/master/assets/images/profile.jpg
 # 60 Words About the Author
-author-about: Olá Mundo! Sou o Kaíque Machado, nasci em Recife, Pernambuco. Estou sempre em busca de novos conhecimentos, por isso, além do estudo da Engenharia, procuro conhecer mais sobre outros campos do saber como a Música e a História. A Música porque sem ela a vida seria um erro, a História para entender como chegamos até aqui, e a Engenharia para projetar nosso futuro. Além disso, meu tempo é dedicado a estar com minha família, amigos, pets, músicas, livros e a guitarra.  Nesta página, você vai encontrar alguns artigos sobre meus estudos, alguns projetos pessoais, meu currículo e uma playlist para animar. Todos os links estão logo abaixo.
+author-about: Olá Mundo! Sou o Kaíque Machado, nasci em Recife, Pernambuco. Sou Engenheiro de Computação pela Universidade Federal do Rio Grande do Norte (UFRN) e especialista em desenvolvimento de software pelo Instituto Metrópole Digital (UFRN) em parceria com o Tribunal Regional Federal da 5º Região (TRF5). Nesta página, você vai encontrar meus artigos, meus projetos pessoais, meu currículo e a minha música favorita para animar. Todos os links estão logo abaixo.
  
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: https://github.com/kaiquecodes
+author-url: https://www.kaique.eng.br/
 
 # SASS
 sass:
