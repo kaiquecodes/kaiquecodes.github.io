@@ -1,6 +1,6 @@
 - name: Artigo CBA
   link: https://github.com/kaiquecodes/Identificacao-de-Sistemas-LSTM
-  image: https://visitefortaleza.com/wp-content/uploads/2022/09/cba_sem_fundo-1.png
+  image: https://raw.githubusercontent.com/kaiquecodes/Identificacao-de-Sistemas-LSTM/main/rede%20neural.png
   description: Machine learning
 - name: Control Board 
   link: https://github.com/kaiquecodes/Design-de-PCB
