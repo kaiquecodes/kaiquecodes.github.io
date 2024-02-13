@@ -1,3 +1,11 @@
+- name: Artigo CBA
+  link: https://github.com/kaiquecodes/Identificacao-de-Sistemas-LSTM
+  image: https://private-user-images.githubusercontent.com/27592360/304496859-eacfab86-da48-4144-9311-79226df2f636.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDc4NDUyODgsIm5iZiI6MTcwNzg0NDk4OCwicGF0aCI6Ii8yNzU5MjM2MC8zMDQ0OTY4NTktZWFjZmFiODYtZGE0OC00MTQ0LTkzMTEtNzkyMjZkZjJmNjM2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMTMlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjEzVDE3MjMwOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPTRmZDBhZDg3OGQ3MTUwOWY1YzNiYTg5OGNjYzQ4OTcwOGNkMThjODUyMzc5MTk0ZWU2NmJhMmU5YmI0YjgwNWEmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.73xdHzKDSzk-DdKyhkg-TKgODeANoRYb5BmgABebq0c
+  description: Machine learning
+- name: Control Board 
+  link: https://github.com/kaiquecodes/Design-de-PCB
+  image: https://raw.githubusercontent.com/kaiquecodes/Design-de-PCB/main/PCB.png
+  description: Design de PCB
 - name: Lipstick Digital
   image: https://raw.githubusercontent.com/kaiquecodes/lipstick-digital/main/images/Aphrodite.png
   link: https://github.com/kaiquecodes/lipstick-digital
@@ -6,13 +14,19 @@
   link: https://github.com/kaiquecodes/processamento-digital-imagens
   image: https://raw.githubusercontent.com/kaiquecodes/processamento-digital-imagens/main/gitbook/images/ex2-original.png
   description: Programação C++ OpenCV
-- name: SantaFlix
-  link: https://github.com/kaiquecodes/santaflix
-  image: https://raw.githubusercontent.com/kaiquecodes/santaflix/main/img/logo.png
-  description: Programação Web
 - name: Paint 3D
   link: https://github.com/kaiquecodes/Paint3D
   image: https://raw.githubusercontent.com/kaiquecodes/Escultor-Digital/master/Exemplos%20de%20Figuras/Pernambuco.jpg
   description: Programação C++ QT
+- name: SantaFlix
+  link: https://github.com/kaiquecodes/santaflix
+  image: https://raw.githubusercontent.com/kaiquecodes/santaflix/main/img/logo.png
+  description: Programação Web
+- name: InfoFilmes
+  link: https://github.com/kaiquecodes/infofilmes
+  image: https://raw.githubusercontent.com/kaiquecodes/infofilmes/main/imagens/logo.png
+  description: Programação Mobile
+
+
 
 
