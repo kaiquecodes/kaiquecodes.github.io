@@ -1,11 +1,11 @@
-- name: Artigo CBA
-  link: https://github.com/kaiquecodes/Identificacao-de-Sistemas-LSTM
-  image: https://raw.githubusercontent.com/kaiquecodes/Identificacao-de-Sistemas-LSTM/main/rede%20neural.png
-  description: Machine learning
-- name: Control Board 
-  link: https://github.com/kaiquecodes/Design-de-PCB
-  image: https://raw.githubusercontent.com/kaiquecodes/Design-de-PCB/main/PCB.png
-  description: Design de PCB
+#- name: Artigo CBA
+ # link: https://github.com/kaiquecodes/Identificacao-de-Sistemas-LSTM
+  #image: https://raw.githubusercontent.com/kaiquecodes/Identificacao-de-Sistemas-LSTM/main/rede%20neural.png
+  #description: Machine learning
+#- name: Control Board 
+  #link: https://github.com/kaiquecodes/Design-de-PCB
+  #image: https://raw.githubusercontent.com/kaiquecodes/Design-de-PCB/main/PCB.png
+  #description: Design de PCB
 - name: Lipstick Digital
   image: https://raw.githubusercontent.com/kaiquecodes/lipstick-digital/main/images/Aphrodite.png
   link: https://github.com/kaiquecodes/lipstick-digital
@@ -26,10 +26,10 @@
   link: https://github.com/kaiquecodes/infofilmes
   image: https://raw.githubusercontent.com/kaiquecodes/infofilmes/main/imagens/logo.png
   description: Programação Mobile
-- name: Projetos Mobile
-  link: https://github.com/kaiquecodes/Projetos-mobile/tree/main
-  image: https://raw.githubusercontent.com/kaiquecodes/Projetos-mobile/main/TRF5%20Cidad%C3%A3o/splash.png
-  description: OOP Java DB 
+# - name: Projetos Mobile
+ # link: https://github.com/kaiquecodes/Projetos-mobile/tree/main
+  #image: https://raw.githubusercontent.com/kaiquecodes/Projetos-mobile/main/TRF5%20Cidad%C3%A3o/splash.png
+  #description: OOP Java DB 
 
 
 
