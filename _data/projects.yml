@@ -6,31 +6,50 @@
   #link: https://github.com/kaiquecodes/Design-de-PCB
   #image: https://raw.githubusercontent.com/kaiquecodes/Design-de-PCB/main/PCB.png
   #description: Design de PCB
-- name: Lipstick Digital
-  image: https://raw.githubusercontent.com/kaiquecodes/lipstick-digital/main/images/Aphrodite.png
-  link: https://github.com/kaiquecodes/lipstick-digital
-  description: Programação Python
-- name: Pro. de Imagens
-  link: https://github.com/kaiquecodes/processamento-digital-imagens
-  image: https://raw.githubusercontent.com/kaiquecodes/processamento-digital-imagens/main/gitbook/images/ex2-original.png
-  description: Programação C++ OpenCV
-- name: Paint 3D
-  link: https://github.com/kaiquecodes/Paint3D
-  image: https://raw.githubusercontent.com/kaiquecodes/Escultor-Digital/master/Exemplos%20de%20Figuras/Pernambuco.jpg
-  description: Programação C++ QT
-- name: SantaFlix
-  link: https://github.com/kaiquecodes/santaflix
-  image: https://raw.githubusercontent.com/kaiquecodes/santaflix/main/img/logo.png
-  description: Programação Web
+- name: PJe 2.x Mobile
+  link: https://residenciaregional.jfrn.jus.br/index.php/pje2-mobile/
+  image: /assets/images/pje.png
+  description: APP Flutter Java
+- name: TRF5 Cidadão
+  link: https://github.com/kaiquecodes/TRF5Cidadao
+  image: /assets/images/splash.png
+  description: APP Flutter 
+- name: E-Move
+  link: https://store.chesf.com.br/prod/detalhes/bsv
+  image: /assets/images/emove.png
+  description: APP Flutter C#
+- name: SISFAIXAS
+  link: https://store.chesf.com.br/prod/detalhes/sisfaixas
+  image: /assets/images/sisfaixas.png
+  description: APP Xamarin C# 
+- name: SARA
+  link: https://store.chesf.com.br/prod/detalhes/sara
+  image: /assets/images/sara.png
+  description: APP Xamarin C# 
+- name: MarcaSus
+  link: https://marcasus.my.canva.site/
+  image: /assets/images/marcasus.png
+  description: Hackathon Flutter Java 
 - name: InfoFilmes
   link: https://github.com/kaiquecodes/infofilmes
   image: https://raw.githubusercontent.com/kaiquecodes/infofilmes/main/imagens/logo.png
-  description: Programação Mobile
-# - name: Projetos Mobile
- # link: https://github.com/kaiquecodes/Projetos-mobile/tree/main
-  #image: https://raw.githubusercontent.com/kaiquecodes/Projetos-mobile/main/TRF5%20Cidad%C3%A3o/splash.png
-  #description: OOP Java DB 
-
+  description: APP Flutter
+- name: SantaFlix
+  link: https://github.com/kaiquecodes/santaflix
+  image: https://raw.githubusercontent.com/kaiquecodes/santaflix/main/img/logo.png
+  description:  Web
+- name: Lipstick Digital
+  image: https://raw.githubusercontent.com/kaiquecodes/lipstick-digital/main/images/Aphrodite.png
+  link: https://github.com/kaiquecodes/lipstick-digital
+  description: Python OpenCV
+- name: Pro. de Imagens
+  link: https://github.com/kaiquecodes/processamento-digital-imagens
+  image: https://raw.githubusercontent.com/kaiquecodes/processamento-digital-imagens/main/gitbook/images/ex2-original.png
+  description: C++ OpenCV
+- name: Paint 3D
+  link: https://github.com/kaiquecodes/Paint3D
+  image: https://raw.githubusercontent.com/kaiquecodes/Escultor-Digital/master/Exemplos%20de%20Figuras/Pernambuco.jpg
+  description: C++ QT
 
 
 
