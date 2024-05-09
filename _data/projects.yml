@@ -15,15 +15,15 @@
   image: /assets/images/splash.png
   description: APP Flutter 
 - name: E-Move
-  link: https://store.chesf.com.br/prod/detalhes/bsv
+  link: 
   image: /assets/images/emove.png
   description: APP Flutter C#
 - name: SISFAIXAS
-  link: https://store.chesf.com.br/prod/detalhes/sisfaixas
+  link: 
   image: /assets/images/sisfaixas.png
   description: APP Xamarin C# 
 - name: SARA
-  link: https://store.chesf.com.br/prod/detalhes/sara
+  link: 
   image: /assets/images/sara.png
   description: APP Xamarin C# 
 - name: MarcaSus
