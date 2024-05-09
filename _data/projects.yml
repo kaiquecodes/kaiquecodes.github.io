@@ -17,15 +17,15 @@
 - name: E-Move
   link: 
   image: /assets/images/emove.png
-  description: APP Flutter C#
+  description: APP Flutter .NET
 - name: SISFAIXAS
   link: 
   image: /assets/images/sisfaixas.png
-  description: APP Xamarin C# 
+  description: APP Xamarin .NET 
 - name: SARA
   link: 
   image: /assets/images/sara.png
-  description: APP Xamarin C# 
+  description: APP Xamarin .NET 
 - name: MarcaSus
   link: https://marcasus.my.canva.site/
   image: /assets/images/marcasus.png
