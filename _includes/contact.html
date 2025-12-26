@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
+
 <section class="hero is-fullheight has-text-centered" id="contact">
     <div class="hero-body">
         <div class="container">
@@ -9,17 +11,10 @@
             </a>
             {% endunless %}
             {% unless site.email == %}
-            <a id="contact-button" download="Currículo Kaíque Machado" href="/Currículo Kaique Machado.pdf"
-                class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
-                target="_blank">
-                <i class="fas fa-address-book"></i>Baixar Currículo
-            </a>
-            {% endunless %}
-            {% unless site.email == %}
             <a id="contact-button" href="mailto:{{site.email}}"
                 class="button is-rounded is-uppercase has-text-weight-normal is-black is-outlined has-text-weight-semibold column is-two-fifths"
                 target="_blank">
-                <i class="fas fa-envelope"></i>Me envie um e-mail
+                <i class="fas fa-envelope"></i>Mande um Email
             </a>
             {% endunless %}
             {% unless site.twitter_username == %}
@@ -31,43 +26,58 @@
             {% endunless %}
             <hr>
             <h3 class="is-size-5 is-uppercase has-text-weight-semibold has-text-black is-marginless">
-                Acompanhe minhas redes sociais aqui.
-            </h3> 
+                Acompanhe minhas redes sociais aqui
+            </h3>
             <div class="column is-full is-size-3">
                 {% unless site.facebook_username == %}
-                <a href="http://www.facebook.com/{{site.facebook_username}}" target="_blank" class="has-text-black"><i class="fab fa-facebook"></i></a>
+                <a href="http://www.facebook.com/{{site.facebook_username}}" target="_blank" class="has-text-black"><i
+                        class="fab fa-facebook"></i></a>
                 {% endunless %}
                 {% unless site.twitter_username == %}
-                <a href="http://www.twitter.com/{{site.twitter_username}}" target="_blank" class="has-text-black"><i class="fab fa-twitter"></i></a>
+                <a href="https://twitter.com/intent/user?screen_name={{site.twitter_username}}" target="_blank"
+                    class="has-text-black"><i class="fab fa-twitter"></i></a>
                 {% endunless %}
-                {% unless site.instagram_username ==  %}
-                <a href="http://www.instagram.com/{{site.instagram_username}}" target="_blank" class="has-text-black"><i class="fab fa-instagram"></i></a>
+                {% unless site.instagram_username == %}
+                <a href="http://www.instagram.com/{{site.instagram_username}}" target="_blank" class="has-text-black"><i
+                        class="fab fa-instagram"></i></a>
                 {% endunless %}
-                {% unless site.linkedin_username ==  %}
-                <a href="http://www.linkedin.com/in/{{site.linkedin_username}}" target="_blank" class="has-text-black"><i class="fab fa-linkedin"></i></a>
+                {% unless site.linkedin_username == %}
+                <a href="http://www.linkedin.com/in/{{site.linkedin_username}}" target="_blank"
+                    class="has-text-black"><i class="fab fa-linkedin"></i></a>
                 {% endunless %}
-                {% unless site.github_username ==  %}
-                <a href="http://www.github.com/{{site.github_username}}" target="_blank" class="has-text-black"><i class="fab fa-github"></i></a>
+                {% unless site.github_username == %}
+                <a href="http://www.github.com/{{site.github_username}}" target="_blank" class="has-text-black"><i
+                        class="fab fa-github"></i></a>
                 {% endunless %}
-                {% unless site.youtube_channel_id ==  %}
-                <a href="http://www.youtube.com/channel/{{site.youtube_channel_id}}" target="_blank" class="has-text-black"><i class="fab fa-youtube"></i></a>
+                {% unless site.youtube_channel_id == %}
+                <a href="http://www.youtube.com/@{{site.youtube_channel_id}}" target="_blank" class="has-text-black"><i
+                        class="fab fa-youtube"></i></a>
                 {% endunless %}
-                {% unless site.reddit_username ==  %}
-                <a href="http://www.reddit.com/u/{{site.reddit_username}}" target="_blank" class="has-text-black"><i class="fab fa-reddit"></i></a>
+                {% unless site.reddit_username == %}
+                <a href="http://www.reddit.com/u/{{site.reddit_username}}" target="_blank" class="has-text-black"><i
+                        class="fab fa-reddit"></i></a>
                 {% endunless %}
-                {% unless site.behance_username ==  %}
-                <a href="http://www.behance.com/{{site.behance_username}}" target="_blank" class="has-text-black"><i class="fab fa-behance"></i></a>
+                {% unless site.behance_username == %}
+                <a href="http://www.behance.com/{{site.behance_username}}" target="_blank" class="has-text-black"><i
+                        class="fab fa-behance"></i></a>
                 {% endunless %}
-                {% unless site.dribbble_username ==  %}
-                <a href="http://www.dribbble.com/{{site.dribbble_username}}" target="_blank" class="has-text-black"><i class="fab fa-dribbble"></i></a>
+                {% unless site.dribbble_username == %}
+                <a href="http://www.dribbble.com/{{site.dribbble_username}}" target="_blank" class="has-text-black"><i
+                        class="fab fa-dribbble"></i></a>
                 {% endunless %}
-                {% unless site.spotify_username ==  %}
-                <a href="http://open.spotify.com/user/{{site.spotify_username}}" target="_blank" class="has-text-black"><i class="fab fa-spotify"></i></a>
+                {% unless site.spotify_username == %}
+                <a href="http://open.spotify.com/user/{{site.spotify_username}}" target="_blank"
+                    class="has-text-black"><i class="fab fa-spotify"></i></a>
+                {% endunless %}
+                {% unless site.gscholar == %}
+                <a href="https://scholar.google.com/citations?user={{site.gscholar}}=en" target="_blank"
+                    class="has-text-black"><i class="fab fa-google"></i></a>
+                {% endunless %}
+                {% unless site.orcid == %}
+                <a href="https://orcid.org/{{site.orcid}}" target="_blank" class="has-text-black"><i
+                        class="fab fa-orcid"></i></a>
                 {% endunless %}
             </div>
         </div>
-        
     </div>
-    <div>
-        <iframe width="560" height="315" src="https://www.youtube.com/embed/qRcYjJQ0JHg?si=uinGKmobHvVLafEF" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    </div>
 </section>
