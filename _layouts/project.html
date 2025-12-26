@@ -19,6 +19,35 @@ layout: compress
                 <div class="section">
                     <p class="subtitle is-uppercase has-text-weight-medium has-text-grey">Engenheiro de Computação</p>
                 </div>
+
+                <!-- Project Tags Filter -->
+                <div class="container has-text-centered" style="margin-bottom: 2rem;">
+                    {% assign raw_tags = "" %}
+                    {% for project in site.data.projects %}
+                    {% if project.tags %}
+                    {% assign t = project.tags | join: ',' | downcase %}
+                    {% assign raw_tags = raw_tags | append: ',' | append: t %}
+                    {% endif %}
+                    {% endfor %}
+                    {% assign raw_tags = raw_tags | split: ',' %}
+                    {% assign project_tags = raw_tags | uniq | sort %}
+
+                    <div class="tags is-centered are-medium">
+                        <span class="tag is-black is-rounded project-filter" data-group="all"
+                            style="cursor: pointer; transition: all 0.3s ease;">
+                            Todos
+                        </span>
+                        {% for tag in project_tags %}
+                        {% if tag != "" %}
+                        <span class="tag is-light is-rounded project-filter" data-group="{{ tag }}"
+                            style="cursor: pointer; transition: all 0.3s ease;">
+                            {{ tag | capitalize }}
+                        </span>
+                        {% endif %}
+                        {% endfor %}
+                    </div>
+                </div>
+
                 {% include project-card.html %}
             </div>
         </div>
@@ -27,6 +56,46 @@ layout: compress
 
     <!--Footer-->
     {% include footer.html %}
+
+    <script>
+        /* Project Filter Logic */
+        document.addEventListener('DOMContentLoaded', () => {
+            const filters = document.querySelectorAll('.project-filter');
+            const projects = document.querySelectorAll('.project-item');
+
+            filters.forEach(filter => {
+                filter.addEventListener('click', () => {
+                    /* Update Active State */
+                    filters.forEach(f => {
+                        f.classList.remove('is-black');
+                        f.classList.add('is-light');
+                    });
+                    filter.classList.remove('is-light');
+                    filter.classList.add('is-black');
+
+                    const selectedTag = filter.getAttribute('data-group');
+
+                    /* Filter Projects */
+                    projects.forEach(project => {
+                        const projectTags = project.getAttribute('data-tags');
+                        /* Guard clause if no tags */
+                        if (!projectTags) {
+                            if (selectedTag === 'all') project.style.display = '';
+                            else project.style.display = 'none';
+                            return;
+                        }
+
+                        const tagsArray = projectTags.split(',');
+                        if (selectedTag === 'all' || tagsArray.includes(selectedTag)) {
+                            project.style.display = ''; /* Reset to CSS default */
+                        } else {
+                            project.style.display = 'none';
+                        }
+                    });
+                });
+            });
+        });
+    </script>
 </body>
 
 </html>

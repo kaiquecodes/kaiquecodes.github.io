@@ -1,52 +1,38 @@
-#- name: Artigo CBA
- # link: https://github.com/kaiquecodes/Identificacao-de-Sistemas-LSTM
-  #image: https://raw.githubusercontent.com/kaiquecodes/Identificacao-de-Sistemas-LSTM/main/rede%20neural.png
-  #description: Machine learning
-#- name: Control Board 
-  #link: https://github.com/kaiquecodes/Design-de-PCB
-  #image: https://raw.githubusercontent.com/kaiquecodes/Design-de-PCB/main/PCB.png
-  #description: Design de PCB
-- name: PJe 2.x Mobile
-  link: https://www.youtube.com/watch?v=rbg5_nLiyuQ
-  image: /assets/images/pje.png
-  description: APP Flutter Java
 - name: TRF5 Cidadão
   link: https://github.com/kaiquecodes/TRF5Cidadao
   image: /assets/images/splash.png
-  description: APP Flutter 
-- name: E-Move
-  image: /assets/images/emove.png
-  description: APP Flutter .NET
-- name: SISFAIXAS
-  image: /assets/images/sisfaixas.png
-  description: APP Xamarin .NET 
-- name: SARA
-  image: /assets/images/sara.png
-  description: APP Xamarin .NET 
+  description: TCC da Residência em TI no TRF5/UFRN 
+  tags:
+  - Flutter
 - name: MarcaSus
   link: https://marcasus.my.canva.site/
   image: /assets/images/marcasus.png
-  description: Hackathon Flutter Java 
-- name: InfoFilmes
-  link: https://github.com/kaiquecodes/infofilmes
-  image: https://raw.githubusercontent.com/kaiquecodes/infofilmes/main/imagens/logo.png
-  description: APP Flutter
+  description: Projeto Vencedor Hackathon LOGAP
+  tags:
+  - Flutter
 - name: SantaFlix
   link: https://github.com/kaiquecodes/santaflix
   image: https://raw.githubusercontent.com/kaiquecodes/santaflix/main/img/logo.png
-  description:  Web
+  description:  Homenagem ao Santa Cruz Futebol Clube
+  tags:
+  - Web
 - name: Lipstick Digital
   image: https://raw.githubusercontent.com/kaiquecodes/lipstick-digital/main/images/Aphrodite.png
   link: https://github.com/kaiquecodes/lipstick-digital
-  description: Python OpenCV
-- name: Pro. de Imagens
-  link: https://github.com/kaiquecodes/processamento-digital-imagens
-  image: https://raw.githubusercontent.com/kaiquecodes/processamento-digital-imagens/main/gitbook/images/ex2-original.png
-  description: C++ OpenCV
+  description: Projeto de Processamento Digital de Imagens(UFRN)
+  tags:
+  - Python
 - name: Paint 3D
   link: https://github.com/kaiquecodes/Paint3D
   image: https://raw.githubusercontent.com/kaiquecodes/Escultor-Digital/master/Exemplos%20de%20Figuras/Pernambuco.jpg
-  description: C++ QT
-
+  description: Projeto de Programação Avançada(UFRN)
+  tags:
+  - C++
+- name: Técnicas em Imagens
+  link: https://github.com/kaiquecodes/processamento-digital-imagens
+  image: https://raw.githubusercontent.com/kaiquecodes/processamento-digital-imagens/main/gitbook/images/ex2-original.png
+  description: Técnicas de Processamento de Imagens
+  tags:
+  - Python
 
 
