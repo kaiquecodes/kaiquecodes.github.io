@@ -9,7 +9,7 @@ baseurl:
 # Title of the Site
 title: Kaíque Machado
 # Description of the Site
-description: Eu vi o mundo… ele começava no Recife.
+description: "Eu vi o mundo… ele começava no Recife."
 # URL of Image of the Site
 site-image: /WhatATheme/assets/images/meta.jpg
 # Keywords of the Site
@@ -48,7 +48,7 @@ author-image: https://raw.githubusercontent.com/kaiquecodes/kaiquecodes.github.i
 author-about: Olá Mundo! Sou o Kaíque Machado, nasci em Recife, Pernambuco. Sou Engenheiro de Computação pela Universidade Federal do Rio Grande do Norte (UFRN) e especialista em desenvolvimento de software pelo Instituto Metrópole Digital (UFRN) em parceria com o Tribunal Regional Federal da 5º Região (TRF5). Nesta página, você vai encontrar meus artigos, meus projetos pessoais e meu currículo. Todos os links estão logo abaixo.
  
 # URL to the Author's Profile (i.e., Github, Twitter, Stackoverflow, etc)
-author-url: https://www.kaique.eng.br/
+author-url: https://www.kaiquemachado.eng.br/
 
 # SASS
 sass:
