@@ -6,16 +6,16 @@
      ========================================================================= */
   
   /* Fundo principal e texto */
-  --background: #061d19; /* Verde escuro (Dark Teal) da Logo 2 */
+  --background: #0b1120; /* Azul Marinho Escuro da Logo 3 */
   --foreground: #f8fafc; /* Texto claro */
   
   /* Cores de Acento / Gradiente Neon */
-  --primary: #4ade80; /* Verde menta brilhante da Logo 2 */
-  --secondary: #14b8a6; /* Teal / Verde mais denso para gradientes */
+  --primary: #22d3ee; /* Ciano brilhante da Logo 3 */
+  --secondary: #3b82f6; /* Azul para gradientes */
 
   /* Superfícies (Cards, Menus) */
-  --surface: rgba(2, 44, 34, 0.7); /* Verde escuro com transparência */
-  --surface-border: rgba(6, 78, 59, 0.5); /* Borda em tom mais claro de verde */
+  --surface: rgba(15, 23, 42, 0.7); /* Azul escuro translúcido */
+  --surface-border: rgba(30, 41, 59, 0.5); /* Borda em tom mais claro de azul */
 }
 
 @theme inline {
