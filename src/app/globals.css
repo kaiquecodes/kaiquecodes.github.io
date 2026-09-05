@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+:root {
+  /* =========================================================================
+     PALETA DE CORES DA MARCA (Fácil de alterar)
+     ========================================================================= */
+  
+  /* Fundo principal e texto */
+  --background: #020617; /* Slate 950 */
+  --foreground: #f8fafc; /* Slate 50 */
+  
+  /* Cores de Acento / Gradiente Neon */
+  --primary: #9333ea; /* Roxo */
+  --secondary: #3b82f6; /* Azul */
+
+  /* Superfícies (Cards, Menus) */
+  --surface: rgba(15, 23, 42, 0.7); /* Slate 900 com transparência para glassmorphism */
+  --surface-border: rgba(30, 41, 59, 0.5); /* Slate 800 transparente */
+}
+
+@theme inline {
+  --color-background: var(--background);
+  --color-foreground: var(--foreground);
+  --color-primary: var(--primary);
+  --color-secondary: var(--secondary);
+  --color-surface: var(--surface);
+  --color-surface-border: var(--surface-border);
+  --font-sans: var(--font-primary);
+}
+
+body {
+  background-color: var(--background);
+  color: var(--foreground);
+  font-family: var(--font-sans), sans-serif;
+  overflow-x: hidden;
+}
+
+/* Utilitário para o efeito Glassmorphism */
+.glass {
+  background-color: var(--surface);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border: 1px solid var(--surface-border);
+}
+
+/* Efeito de brilho sutil na borda no hover */
+.hover-glow:hover {
+  border-color: var(--primary);
+  box-shadow: 0 0 15px rgba(147, 51, 234, 0.3);
+}
+
+/* Texto com gradiente */
+.text-gradient {
+  background: linear-gradient(to right, var(--primary), var(--secondary));
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
