@@ -6,16 +6,16 @@
      ========================================================================= */
   
   /* Fundo principal e texto */
-  --background: #020617; /* Slate 950 */
-  --foreground: #f8fafc; /* Slate 50 */
+  --background: #061d19; /* Verde escuro (Dark Teal) da Logo 2 */
+  --foreground: #f8fafc; /* Texto claro */
   
   /* Cores de Acento / Gradiente Neon */
-  --primary: #9333ea; /* Roxo */
-  --secondary: #3b82f6; /* Azul */
+  --primary: #4ade80; /* Verde menta brilhante da Logo 2 */
+  --secondary: #14b8a6; /* Teal / Verde mais denso para gradientes */
 
   /* Superfícies (Cards, Menus) */
-  --surface: rgba(15, 23, 42, 0.7); /* Slate 900 com transparência para glassmorphism */
-  --surface-border: rgba(30, 41, 59, 0.5); /* Slate 800 transparente */
+  --surface: rgba(2, 44, 34, 0.7); /* Verde escuro com transparência */
+  --surface-border: rgba(6, 78, 59, 0.5); /* Borda em tom mais claro de verde */
 }
 
 @theme inline {
