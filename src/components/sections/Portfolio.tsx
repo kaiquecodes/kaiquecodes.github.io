@@ -5,29 +5,29 @@ import { cn } from '@/lib/utils';
 const portfolioItems = [
   {
     title: "Medisens",
-    category: "HealthTech",
+    category: "Saúde e Tecnologia",
     description: "SaaS para clínicas. Plataforma Web e Cloud-native para gestão completa.",
     color: "from-blue-500/20 to-cyan-500/5",
     borderGlow: "group-hover:border-blue-500/50"
   },
   {
     title: "Trimvi",
-    category: "Beauty & Wellness",
-    description: "Agendamento online inteligente para salões. App Multiplataforma.",
+    category: "Beleza e Bem-Estar",
+    description: "Plataforma inteligente de agendamento e pagamento, desenvolvida sob medida para salões de beleza e barbearias.",
     color: "from-pink-500/20 to-rose-500/5",
     borderGlow: "group-hover:border-pink-500/50"
   },
   {
-    title: "santa_tef",
-    category: "FinTech & Varejo",
-    description: "Integração robusta de transações para PDVs desenvolvida em Flutter.",
+    title: "PDV ANDROID",
+    category: "Finanças e Varejo",
+    description: "Sistema PDV para qualquer dispositivo Android, desde totens de autoatendimento até maquininhas de cartão.",
     color: "from-emerald-500/20 to-teal-500/5",
     borderGlow: "group-hover:border-emerald-500/50"
   },
   {
-    title: "12patinhas",
-    category: "Social & IA",
-    description: "Plataforma de adoção de animais utilizando Machine Learning para match fotográfico.",
+    title: "+Edifício",
+    category: "Gestão Condominial",
+    description: "Plataforma completa e integrada para administração e gestão inteligente de condomínios.",
     color: "from-purple-500/20 to-violet-500/5",
     borderGlow: "group-hover:border-purple-500/50"
   }

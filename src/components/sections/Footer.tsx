@@ -13,7 +13,7 @@ export function Footer() {
         <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-12 mb-16">
           
           <div className="col-span-1 md:col-span-2">
-            <Link href="/" className="inline-block mb-6 relative w-32 h-10">
+            <Link href="/" className="inline-block mb-6 relative w-48 h-14 md:w-64 md:h-16">
               <Image 
                 src={brandConfig.logoUrl} 
                 alt={`${brandConfig.name} Logo`}
