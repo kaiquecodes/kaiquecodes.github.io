@@ -5,7 +5,7 @@ export const brandConfig = {
   // URL da logo atual. 
   // Para testar outras logos, coloque a imagem na pasta /public e altere este caminho.
   // Você também pode usar URLs externas.
-  logoUrl: "/logo3.png",
+  logoUrl: "/logo.jpeg",
   
   // Cores principais (usadas no Tailwind via CSS variables, mas listadas aqui para referência se necessário)
   // Para alterar, edite o arquivo src/app/globals.css
